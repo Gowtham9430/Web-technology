@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>embedding multimedia</title>
+</head>
+<body>
+<center>
+<h1> here is a video embedding on this webpage</h2>
+<h2>play audio/video at a time</h2>
+<br>
+<h3>play audio:</h3>
+<audio controls>
+<source src="sample-5s.mp4" type="audio/mpeg">
+source scr="Audio1.ogg"type="audio/ogg">
+your browser does not support the audio tag.
+</audio>
+<br>
+<br>
+<h3>play video:</h3>
+<video controls width="500">
+<source src="sample-5s.mp4"type="video/mp4">
+sorry your browser does't support embdeed video
+</video>
+</center>
+</body>
+</html>
