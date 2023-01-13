@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>studentresult</title>
+</head>
+<body>
+<fieldset style="width:600px">
+<legent><b>student input section:><b></legend>
+NAME:<input type="text"id="text"id="txtname">
+class:<input type="id="txtcladd"><br/><br/>
+<table border="1">
+<tr><td>English</td><td><input type="text"id="txtEnglish"></td></tr>
+<tr><td>kannada</td><td><input type="text"id="txtkannada"></td></tr>
+<tr><td>maths</td><td><input type="text"id="txtmaths"></td></tr>
+<tr><td>science</td><td><input type="text"id="txtscience"></td></tr>
+</table><br/><br/>
+<intput type="button" value="get result">
+</fieldset>
+<h2>report card</h2>
+<table border="1">
+<tr><td>name<
