@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javasdript">functionloadxmldoc()
+if(window.xmlhttprequest)
+xmlhttp=new xmlhttprequest();
+else
+xmlhttp=new
+activexobject("microsoft.xmlhttp");
+xmlhttp.onreadystatechange=function()
+{
+if(xmlhttp.readystate==4&&xmlhttp.status==200)
+{document.getelementbyid("mydiv").innerhtml=xmlhttp.responsetext;
+}
+}
+xmlhttp.open("get,new.text",true);
+xmlhttp.send();
+}
+</script>
+<title>ajax program</title>
+</head>
+<body>
+<div id="mydiv"><h2>let ajax change this text</h2>
+<a href="microsoft.txt">
+</div>
+<button type="button" onclick="loadxmldoc()">change content </button>
+</body>
+</html>
